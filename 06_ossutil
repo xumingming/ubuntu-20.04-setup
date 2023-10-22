@@ -1,0 +1,2 @@
+sudo -v ; curl https://gosspublic.alicdn.com/ossutil/install.sh | sudo bash
+

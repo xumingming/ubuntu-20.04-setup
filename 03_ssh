@@ -1,0 +1,11 @@
+apt-get install -y openssh-client
+apt-get install -y openssh-server
+
+vim /etc/ssh/sshd_config
+
+UsePAM no
+PermitRootLogin yes
+PasswordAuthentication yes
+
+# 重启ssh
+/etc/init.d/ssh restart
