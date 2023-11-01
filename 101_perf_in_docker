@@ -1,0 +1,6 @@
+# perf is located at /usr/bin/perf
+# It is a shell script which invokes the "actual" perf
+# We might need to modify the perf script a little bit
+# more specifically the variable named "full_version"
+# change it with the name under /usr/lib/linux-tools/<the-name-we-want> 
+apt install linux-tools-common linux-tools-generic 
