@@ -1,2 +1,2 @@
 # https://medium.com/@geekidea_81313/running-perf-in-docker-kubernetes-7eb878afcd42
-docker run --privileged --name=abei1 -idt ubuntu:20.04
+docker run --privileged --name=abei007 -p 9527:22 -idt ubuntu:20.04
