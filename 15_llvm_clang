@@ -1,0 +1,10 @@
+apt install llvm-13
+apt install clang-13
+
+export LLVM_HOME=/usr/lib/llvm-13
+export PATH=$LLVM_HOME/bin:$PATH
+
+export CMAKE_C_COMPILER=$LLVM_HOME/bin/clang
+export CMAKE_CXX_COMPILER=$LLVM_HOME/bin/clang++
+export CC=$CMAKE_C_COMPILER
+export CXX=$CMAKE_CXX_COMPILER
